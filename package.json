@@ -1,0 +1,23 @@
+{
+    "name": "mern-stack",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start-dev": "nodemon index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/kabir48/MERN-STACK.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/kabir48/MERN-STACK/issues"
+    },
+    "homepage": "https://github.com/kabir48/MERN-STACK#readme",
+    "dependencies": {
+        "nodemon": "^3.0.1"
+    }
+}
