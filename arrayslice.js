@@ -47,4 +47,29 @@ arrowFunction(1, 2, 2, 4, 5);
 const arrowSum = (x, y) => x + y;
 
 
-console.log(arrowSum(30, 40))
+console.log(arrowSum(30, 40));
+
+
+function Example() {
+    this.value = 56;
+
+    this.traditionalFunction = function() {
+        setTimeout(function() {
+            console.log(this.value)
+        }, 1000)
+    }
+
+
+    this.arrowFunction = () => {
+        setTimeout(() => {
+            console.log(this.value)
+        }, 1000)
+    }
+}
+
+
+
+const example = new Example();
+
+example.traditionalFunction();
+example.arrowFunction();
