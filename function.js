@@ -38,3 +38,4 @@ var hours = 40
 
 console.log(data.toDateString())
 console.log(data.getHours())
+console.log('Hello World')
